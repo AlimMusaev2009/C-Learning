@@ -1,0 +1,92 @@
+#include <iostream>
+#include <cmath>
+#include <Windows.h>
+#include <limits>
+using namespace std;
+int main()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    ////Задание 1 
+    //string str;
+    //cout << "Введите слово: ";
+    //cin >> str;
+    //int h = str.length();
+    //for (int k = 0;k < h; k++) {
+    //    cout << str[k] << "\n";
+    //}
+    //
+    //
+    ////Задание 3
+    //for (int i = 1; i < 10; i++)
+    //{
+    //    for (int j = 1; j < 10; j++)
+    //    {
+    //        cout << i << " * " << j << " = ";
+    //        cout << i * j << " \n";
+    //        
+    //    }
+    //}
+
+    ////Задание 2
+    //for (int i = 0; i <= 100; i++) {
+    //    if (i % 4 == 0) {
+    //        cout << i << "\n";
+    //    }
+    //}
+
+    //Задание 4
+    /*int t;
+    cin >> t;
+    for (int i = 0; i<=t;i++){
+        for (int j = 0; j <= i-1; j++) {
+            cout << "*";
+        }
+        cout << "\n";
+    }*/
+
+    int o;
+    
+    cin >> o;
+    for (int i = 0; i <= o; i++) {
+        for (int k = o; k > i-; k-=1) {
+            if (k % 2 == 1) {
+                cout << " ";
+            }
+            
+        }
+        for (int j = 0; j <= i-1; j++) {
+            if (i % 2 == 1) {
+                cout << "*";
+            }
+              
+        }
+        if (i % 2 == 1) {
+            cout << "\n";
+        }
+        
+    }
+
+    int ot = 0;
+    int a;
+    for (int i = 0; i < 1;) {
+        cin >> a;
+        if (a > 0) {
+            ot += a;
+            a = 0;
+        }
+        else { i = 1; }
+    }
+
+    int count = 0;
+    for (int i = 2; i <= 100; i++) {
+        if (i % 3 == 0) {
+            cout << i << "\n";
+            continue;
+        }
+        
+    }
+    
+    
+}
+
